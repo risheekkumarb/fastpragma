@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "fastpragma"
+  site-url: "https://risheekkumarb.github.io/fastpragma"
+  description: ""
+  repo-branch: main
+  repo-url: "https://github.com/risheekkumarb/fastpragma"

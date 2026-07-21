@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fastpragma"
+dynamic = ["version"]
+description = ""
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "Risheek kumar B", email = "b.risheekkumar@gmail.com"}]
+keywords = ['nbdev']
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/risheekkumarb/fastpragma"
+Documentation = "https://risheekkumarb.github.io/fastpragma/"
+
+[project.entry-points.nbdev]
+fastpragma = "fastpragma._modidx:d"
+
+[tool.setuptools.dynamic]
+version = {attr = "fastpragma.__version__"}
+
+[tool.setuptools.packages.find]
+include = ["fastpragma"]
+
+[tool.nbdev]
