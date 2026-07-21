@@ -15,7 +15,19 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
 ]
-dependencies = []
+dependencies = [
+    "polars",
+    "torch",
+    "fastai",
+    "fastcore",
+    "scipy",
+    "scikit-learn",
+    "httpx",
+    "nbdev",
+    "dialoghelper",
+    "rgapi",
+    "pyskills",
+]
 
 [project.urls]
 Repository = "https://github.com/risheekkumarb/fastpragma"
