@@ -16,17 +16,21 @@ classifiers = [
     "Programming Language :: Python :: 3 :: Only",
 ]
 dependencies = [
-    "polars",
-    "torch",
-    "fastai",
-    "fastcore",
-    "scipy",
-    "scikit-learn",
-    "httpx",
-    "nbdev",
-    "dialoghelper",
-    "rgapi",
-    "pyskills",
+    "polars>=1.43.0",
+    "numpy>=2.5.0",
+    "pandas>=3.0.3",
+    "torch>=2.12.1",
+    "fastai>=2.8.6",
+    "fastcore>=1.13.9",
+    "tokenizers>=0.22.2",
+    "fastprogress>=1.1.6",
+    "scipy>=1.18.0",
+    "scikit-learn>=1.8.0",
+    "httpx>=0.28.1",
+    "nbdev>=3.0.15",
+    "dialoghelper>=0.2.38",
+    "rgapi>=0.1.11",
+    "pyskills>=0.0.11",
 ]
 
 [project.urls]
